@@ -1,0 +1,10 @@
+:root {
+  --main-font: "Source Sans Pro", sans-serif;
+  --kr-font: "Gowun Batang", serif;
+  --secondary-font: "Herr Von Muellerhoff", cursive;
+  --body-font: "Cabin", sans-serif;
+  --main-font-color-dark: #252525;
+  --secondary-font-color: #2f772d;
+  --body-font-color: #515151;
+  --color-white: #fff;
+}
