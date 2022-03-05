@@ -8,7 +8,10 @@
 /* components */
 @import "components/header.css";
 @import "components/footer.css";
-@import "components/hero.css";
+
+/* screens */
+@import "screens/hero.css";
+@import "screens/discover.css";
 
 *,
 *::before,

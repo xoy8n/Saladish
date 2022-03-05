@@ -35,7 +35,7 @@ header {
   left: 0;
   width: 80%;
   height: 100vh;
-  background-color: var(--secondary-font-color);
+  background-color: #f0f0f0;
   padding: 4.4rem;
   display: flex;
   flex-direction: column;
@@ -76,17 +76,17 @@ header {
 }
 
 .nav-item {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(47, 119, 45, 0.8);
 }
 
 .nav-link {
   display: block;
-  color: var(--color-white);
+  color: var(--secondary-font-color);
   text-decoration: uppercase;
   font-size: 2rem;
   transition: color 0.5s;
 }
 
 .nav-link:hover {
-  color: var(--secondary-font-color);
+  color: #f0f0f0;
 }
