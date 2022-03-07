@@ -12,7 +12,8 @@
 /* screens */
 @import "screens/hero.css";
 @import "screens/discover.css";
-@import "screens/recipes.css";
+@import "screens/menu.css";
+@import "screens/single-pic.css";
 
 *,
 *::before,
