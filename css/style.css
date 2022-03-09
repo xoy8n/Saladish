@@ -53,3 +53,15 @@ p {
   margin: 0 auto;
   padding: 0 2.4rem;
 }
+
+input,
+input::placeholder {
+  font-family: var(--body-font);
+}
+
+/* Media Queries */
+@media screen and (min-width: 900px) {
+  section {
+    padding: 7.9rem;
+  }
+}

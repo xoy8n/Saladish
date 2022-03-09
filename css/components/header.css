@@ -85,8 +85,38 @@ header {
   text-decoration: uppercase;
   font-size: 2rem;
   transition: color 0.5s;
+  z-index: 9999;
 }
 
 .nav-link:hover {
   color: #f0f0f0;
+}
+
+/* Media Queries */
+@media screen and (min-width: 900px) {
+  .menu-toggle {
+    display: none;
+  }
+  .nav {
+    justify-content: space-between;
+  }
+  .nav-list {
+    position: initial;
+    width: initial;
+    height: initial;
+    background-color: transparent;
+    padding: 0;
+    justify-content: initial;
+    flex-direction: row;
+    transform: initial;
+    transition: initial;
+  }
+  .nav-link {
+    color: white;
+  }
+  .nav-item {
+    border-bottom: 1px solid white;
+    margin: 0 2.4rem;
+    border: none;
+  }
 }
