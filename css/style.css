@@ -8,6 +8,8 @@
 /* components */
 @import "components/header.css";
 @import "components/footer.css";
+@import "components/media-query.css";
+@import "components/animations.css";
 
 /* screens */
 @import "screens/hero.css";
@@ -57,11 +59,4 @@ p {
 input,
 input::placeholder {
   font-family: var(--body-font);
-}
-
-/* Media Queries */
-@media screen and (min-width: 900px) {
-  section {
-    padding: 7.9rem;
-  }
 }
