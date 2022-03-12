@@ -22,11 +22,12 @@ footer {
   color: white;
   font-size: 2rem;
   padding: 2rem;
+  animation: up 2s infinite;
 }
-/* 
+
 .footer-content {
   overflow: hidden;
-} */
+}
 
 .footer-content h4 {
   font-size: 1.9rem;
