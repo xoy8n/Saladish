@@ -1,0 +1,80 @@
+.reservation-form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 4rem;
+  padding-top: 5rem;
+  background-color: var(--secondary-font-color);
+  color: white;
+}
+.reservation-title {
+  display: none;
+}
+.reservation-form-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.reservation-form-text p {
+  font-size: 3rem;
+}
+.reservation-form-text input {
+  border: none;
+  background: transparent;
+  border-bottom: 2px dotted var(--color-gold);
+  width: 230px;
+}
+.reservation-form-text input,
+.reservation-form-text input::placeholder {
+  color: var(--color-gold);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+select {
+  border: none;
+  background: transparent;
+  font-size: 3rem;
+  font-weight: 700;
+  border-bottom: 2px dotted var(--color-gold);
+  color: var(--color-gold);
+  font-family: var(--body-font);
+  text-align-last: center;
+}
+
+select:focus {
+  outline: none;
+}
+
+#salad-form option {
+  background-color: var(--body-font-color);
+  text-align: center;
+}
+
+.submit-title {
+  font-size: 3rem;
+  /* font-weight: 900; */
+}
+
+.fa-paper-plane {
+  font-size: 3rem;
+  color: var(--color-gold);
+  animation: arrow-down 1.3s infinite;
+}
+
+@media screen and (min-width: 900px) {
+  .reservation-title {
+    display: block;
+    font-size: 5rem;
+    color: white;
+    border-bottom: 2px dotted white;
+  }
+  .reservation-form p {
+    font-size: 4rem;
+  }
+}

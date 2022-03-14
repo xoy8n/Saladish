@@ -1,3 +1,5 @@
+
+/* hero */
 .hero {
   width: 100%;
   height: 100vh;
@@ -104,22 +106,43 @@
   margin-bottom: 1.2rem;
   letter-spacing: 3px;
 }
-
-.cta-btn {
-  font-size: 1.1rem;
-  background-color: var(--color-white);
-  padding: 0.9rem 1.8rem;
-  color: var(--body-font-color);
-  border-radius: 0.4rem;
-  transition: backrground-color 0.5s;
+.scroll-down {
+  position: absolute;
+  bottom: -6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mouse {
+  width: 2rem;
+  height: 4rem;
+  border: 2px solid white;
+  border-radius: 2rem;
+  margin-bottom: 0.3rem;
+  display: flex;
+}
+.mouse span {
+  width: 1rem;
+  height: 1rem;
+  background-color: #fff;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  animation: mouse-wheel 1s linear infinite;
 }
 
-.cta-btn:hover,
-.cta-btn:focus {
-  color: var(--color-white);
-  background-color: var(--secondary-font-color);
+.arrow span {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid transparent;
+  border-right-color: white;
+  border-bottom-color: white;
+  transform: rotate(45deg);
+  animation: arrow-down 0.5s alternate infinite;
 }
-
 .global-headline {
   text-align: center;
   margin-top: 3.9rem;

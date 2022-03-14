@@ -13,6 +13,50 @@
   </head>
   </head>
   <body>
+      <header>
+        <div class="container">
+          <nav class="nav">
+            <div class="menu-toggle">
+              <i class="fas fa-bars"></i>
+              <i class="fas fa-times"></i>
+            </div>
+            <a href="index.html" class="logo boot"><img src="img/logo-wht.png" /></a>
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about-us.html" class="nav-link">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="menu.html" class="nav-link">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a href="reservation.html" class="nav-link">Reservations</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="reservation-form">
+        <h1 class="reservation-title animate-bottom">Reservation</h1>
+        <div class="reservation-form-text animate-left">
+          <p>Hey guys,</p>
+          <p>My name is <span><input type="text" placeholder=" enter name" ></span>, and my phone number is <span><input type="tel" placeholder="010-1234-5678"></span> </p>
+          <p>I would like to order the <span><select name="order" id="salad-form">
+            <option hidden="" disabled="disabled" selected="selected">choose the salad🥗</option>
+            <option>strawberry salad🍓</option>
+            <option>shrimp salad🍤</option>
+            <option>salmon salad🍣</option>
+            <option>chicken salad🍗</option>
+            <option>nacho salad🥙</option>
+            <option>Avocado salad🥑</option>
+            <option>bacon salad🥓</option>
+          </select>.</span></p>
+          <p>And i want to pick it up at <span><input type="time"></span>.</p>
+        </div>
+        <p class="submit-title animate-top">See you soon! <button class="submit-btn"><i class="fas fa-paper-plane"></i></button></p>
+      </div>
     <script src="js/main.js"></script>
   </body>
 </html>
