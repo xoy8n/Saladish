@@ -4,7 +4,7 @@
 /* reset */
 @import "reset.css";
 @import "variables.css";
-
+@import "main.css";
 /* components */
 @import "components/header.css";
 @import "components/footer.css";
@@ -12,7 +12,6 @@
 @import "components/animations.css";
 
 /* screens */
-@import "screens/main.css";
 @import "screens/about-us.css";
 @import "screens/reservation.css";
 @import "screens/menu.css";
