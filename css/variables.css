@@ -8,6 +8,11 @@
   --color-white: #fff;
   --color-gold: #c59d5f;
   --color-bg: #f2f2f2;
+  --light-color: #fff;
+  --dark-color: #2e2e2e;
+  --dark-color-lighter: #4d4d4d;
+  --accent-color: #f55556;
+  --section-background-color: #afd485;
   /* --color-gold: #ffcd4a; */
   /* --color-gold: #fd8a69; */
 }

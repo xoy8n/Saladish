@@ -62,7 +62,7 @@
 }
 
 .slick-arrow {
-  z-index: 10;
+  z-index: 1;
   width: 50px;
   height: 50px;
   font-weight: 900;

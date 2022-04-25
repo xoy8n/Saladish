@@ -1,0 +1,369 @@
+.d-grid {
+  display: grid;
+}
+
+.why-choose-us .image-content-group,
+.home-delivery .image-content-group,
+.download-our-app .image-content-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.why-choose-us .image-content-group img,
+.home-delivery .image-content-group img {
+  width: 80%;
+}
+.download-our-app .image-content-group img {
+  width: 60%;
+}
+/* hero */
+.about {
+  width: 100%;
+  height: 100vh;
+  background: none;
+  padding: 8rem 0 5rem;
+  /* background-color: #feccbe; */
+  background-color: #ddecca;
+  display: block;
+}
+.text-content-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tagline-wrapper {
+  background-color: var(--section-background-color);
+  border-radius: 2.3rem;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: fit-content;
+  padding: 1.2rem 1.6rem;
+}
+
+.tagline {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: white;
+}
+
+.strawberry-image {
+  width: 2.6rem;
+  height: 2.4rem;
+  margin: 0.8rem;
+}
+
+.title {
+  color: var(--dark-color);
+  font-weight: 700;
+}
+
+.main-title {
+  font-size: 3rem;
+  line-height: 5.8rem;
+  letter-spacing: -0.05rem;
+}
+
+.accent-color {
+  color: var(--secondary-font-color);
+  letter-spacing: -0.05rem;
+  font-weight: 500;
+}
+
+.text-content-paragraph {
+  line-height: 3rem;
+  letter-spacing: 0.005rem;
+  margin-block: 2.2rem;
+}
+
+.button-group {
+  margin: 5rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2.4rem;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  background-color: var(--secondary-font-color);
+  color: var(--light-color);
+  padding: 1.4rem;
+  border: 1px solid transparent;
+  border-radius: 0.8rem;
+  transition: background-color 0.25s;
+  font-size: 1.6rem;
+}
+
+.about .button {
+  font-size: 1.2rem;
+}
+.about .button-transparent {
+  padding: 0;
+}
+
+.button:not(.button-transparent):hover,
+.button:not(.button-transparent):focus {
+  background-color: var(--light-color);
+  color: var(--secondary-font-color);
+  border-color: var(--secondary-font-color);
+}
+
+.button-transparent {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  color: var(--dark-color);
+}
+
+.play-icon-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 1.2rem;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.08);
+}
+
+.button-transparent img {
+  transition: transform 0.25s ease-in-out;
+}
+
+.button-transparent:hover img,
+.button-transparent:focus img {
+  transform: scale(1.1);
+}
+
+/* What we serve */
+.what-we-serve {
+  padding: 10rem 0;
+  background-color: var(--section-background-color);
+}
+
+.section-metadata {
+  text-align: center;
+}
+
+.section-tagline {
+  display: inline-block;
+  font-weight: 500;
+  color: var(--secondary-font-color);
+  /* color: white; */
+  line-height: 2.4rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.7rem;
+}
+
+.section-title {
+  font-size: 2.4rem;
+  line-height: 4.4rem;
+  margin-bottom: 2.2rem;
+}
+
+.card-group {
+  margin: 7rem 0 2rem;
+  gap: 2rem;
+}
+
+.card {
+  padding: 3rem 2.2rem;
+  background-color: var(--light-color);
+  border-radius: 1.2rem;
+}
+
+.card-header {
+  display: flex;
+  padding-top: 3rem;
+}
+
+.card-header img {
+  height: 6rem;
+  width: auto;
+  margin: 0 auto;
+}
+
+.card-body {
+  text-align: center;
+  margin: 6rem 0 2rem;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  line-height: 3.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.card-body p {
+  line-height: 2.5rem;
+}
+
+/* Why choose us  */
+.why-choose-us {
+  padding: 5rem 0;
+}
+
+section:not(.about) .text-content-group {
+  margin: 3rem 0 1rem;
+}
+
+.why-choose-us .section-tagline {
+  color: #03a66b;
+}
+
+section:not(.about) .button {
+  margin: 5rem 0 2rem;
+}
+
+/* home delivery */
+.home-delivery {
+  background-color: #ddecca;
+  padding: 0 0 10rem;
+}
+
+.home-delivery .section-tagline {
+  color: #f9ba45;
+}
+
+/* download our app */
+.download-our-app {
+  margin: 0 auto;
+  background-color: var(--section-background-color);
+}
+
+.download-our-app-container .image-content-group img {
+  margin: 0 auto;
+}
+
+.download-our-app .button-group {
+  margin: 0;
+  column-gap: 5rem;
+}
+
+.download-our-app .button {
+  width: auto;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  padding-block: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 2rem;
+}
+.store-logo {
+  width: auto;
+  height: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 8rem 0 12rem;
+  }
+  .container {
+    max-width: 72rem;
+  }
+  .text-content-group {
+    font-size: 1.6rem;
+  }
+  .tagline {
+    font-size: inherit;
+  }
+  .main-title {
+    font-size: 3.8rem;
+  }
+  .button-group {
+    justify-content: flex-start;
+  }
+  .button {
+    width: 18rem;
+    padding: 1.8rem 2rem;
+  }
+  .about .button {
+    font-size: inherit;
+  }
+
+  .about .button-transparent {
+    width: 100%;
+  }
+  .play-icon-image {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .text-content-group,
+  .section-metadata {
+    text-align: left;
+  }
+
+  .what-we-serve .section-metadata {
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 3.2rem;
+  }
+
+  .card-group {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.4rem;
+  }
+
+  .section:not(.about) .text-content-group {
+    margin: 10rem 0 2rem;
+  }
+
+  .download-our-app .text-content-group {
+    margin-top: 8rem !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 96rem;
+  }
+  .hero-container,
+  .home-delivery-container,
+  .download-our-app-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.4rem;
+  }
+  .play-icon-image {
+    width: 5rem;
+    height: 5rem;
+  }
+  .about {
+    padding-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    padding: 4rem 2.6rem;
+    margin: 1rem;
+  }
+  .why-choose-us-container {
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 2.4rem;
+  }
+  .why-choose-us .image-content-group {
+    grid-column: span 7;
+  }
+
+  .why-choose-us .text-content-group {
+    grid-column: span 5;
+  }
+  .home-delivery .image-content-group {
+    order: 1;
+  }
+  .download-our-app {
+    padding: 10rem 0;
+  }
+  .download-our-app .button-group {
+    font-size: 2rem;
+  }
+  .store-logo {
+    height: 5.5rem;
+  }
+}
